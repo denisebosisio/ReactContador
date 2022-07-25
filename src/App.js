@@ -28,6 +28,7 @@ export default class App extends Component {
         <h1>Contador</h1>
         <h2>{this.state.num}</h2>
         <button onClick={this.incremento}>+</button>
+        <button onClick={this.decremento}>-</button>
       </div>
     );
   }
